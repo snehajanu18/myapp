@@ -1,0 +1,7 @@
+ - name: Basic Server Setup
+   hosts: local
+   become: false
+   tasks:
+    - name: Example Setup
+      debug:
+       msg: "hfnjdb"
